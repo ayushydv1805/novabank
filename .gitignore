@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database dumps and generated backups
+backups/
+*.sql.gz
+*.dump
+
+# Local/editor/OS files
+.DS_Store
+.AppleDouble
+Thumbs.db
+.vscode/
+.idea/
+*.log
